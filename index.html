@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias Nicolas | Mechanical Engineer</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Elias Nicolas</div>
+            <nav class="main-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="resume.html">Resume</a>
+            </nav>
+            <div class="social-links">
+                <a href="https://github.com/3N1C0" target="_blank" aria-label="GitHub Profile">
+                    <!-- GitHub SVG Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="http://www.linkedin.com/in/elias-nicolas-2a98652a2" target="_blank" aria-label="LinkedIn Profile">
+                    <!-- LinkedIn SVG Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero container">
+            <img src="./assets/pic.jpg" class="headshot-placeholder">
+            <div class="hero-text">
+                <h1 id="typewriter"></h1>
+                <p class="hero-subtitle">Aspiring Mechanical Engineer focused on integrating AI and Robotics</p>
+            </div>
+        </section>
+
+        <!-- Journey/Diagram Section -->
+        <section id="journey">
+            <img src="./assets/flow.png" alt="Flowchart detailing the journey from aspiring basketball player to mechanical engineer" class="journey-diagram">
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>I am currently completing a Bachelors of Arts in Data Science and a Bachelors of Science in Mechanical Engineering through the Univeristy of Redlands 3-2 Engineering Program. The road to achieving my goal of becoming a Mechanical Engineer has been pretty difficult (and continues to be) but like every great engineer does I delusionaly believe things will work out as nothing is impossible without caffiene and human willpower. On top of my experiences in Physics Simulations, Data Sceince, and Engineering, I have also dabbled in a little bit of homelabbing in my spare time as a personal project of mine. Outside of work and school, you can usually find me on the basketball court for pickup runs or at the rock climbing gym falling (with style). </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                          <path d="M12 2L22 7.5V16.5L12 22L2 16.5V7.5L12 2ZM11.16 7.5H12.84V13.34L16.5 16.31L17.5 14.89L12.84 12.35V7.5ZM4 8.71L12 4.47L20 8.71V15.29L12 19.53L4 15.29V8.71Z"/>
+                        </svg>
+                    </span>
+                    CAD Software (SolidWorks, Fusion 360, Onshape)
+                </div>
+                <div class="skill-item">
+                     <span class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                           <path d="M12,6A6,6 0 0,1 18,12C18,14.21 16.84,16.16 15,17.2V19.75C18.04,18.85 20.25,16.18 20.25,13C20.25,9.27 17.5,6.25 14,5.08V2.5C18.82,3.18 22.5,7.74 22.5,13C22.5,18.26 18.82,22.82 14,23.5V21.08C17.5,19.92 20.25,16.73 20.25,13H17.75C17.75,15.82 15.82,18.25 13,18.71V16.08C15.39,15.21 17,12.8 17,10H14V7.08C15.82,7.74 17.25,9.66 17.75,12H12V6M9,18.71C6.18,18.25 3.75,15.82 3.75,13H6.25C6.25,16.73 9,19.92 12.5,21.08V23.5C7.18,22.82 3.5,18.26 3.5,13C3.5,7.74 7.18,3.18 12,2.5V5.08C8.5,6.25 5.75,9.27 5.75,13C5.75,16.18 7.96,18.85 11,19.75V17.2C9.16,16.16 8,14.21 8,12H10C10,14.8 11.61,17.21 14,18.08V20.71C11.75,20.25 10.18,19.2 9,18.71Z"/>
+                        </svg>
+                     </span>
+                    Finite Element Analysis (FEA)
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                          <path d="M21.5 17L19 14.5L16.5 17L14 14.5V11.5H8V14.5L5.5 17L3 14.5L5.5 12L3 9.5L5.5 7L8 9.5V6.5H14V9.5L16.5 7L19 9.5L16.5 12L19 14.5L21.5 12L19 9.5L16.5 12L19 14.5L21.5 17M8 9.5L5.5 12L8 14.5V9.5Z"/>
+                        </svg>
+                    </span>
+                    MATLAB & Simulink
+                </div>
+                 <div class="skill-item">
+                    <span class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                           <path d="M14.6,16.6L19.2,12L14.6,7.4L16,6L22,12L16,18L14.6,16.6M9.4,16.6L4.8,12L9.4,7.4L8,6L2,12L8,18L9.4,16.6Z"/>
+                        </svg>
+                    </span>
+                    Python (Pandas, NumPy, Matplotlib) & C++
+                </div>
+                 <div class="skill-item">
+                    <span class="skill-icon">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <title>printer-3d</title>
+                            <path d="M19,6A1,1 0 0,0 20,5A1,1 0 0,0 19,4A1,1 0 0,0 18,5A1,1 0 0,0 19,6M19,2A3,3 0 0,1 22,5V11H18V7H6V11H2V5A3,3 0 0,1 5,2H19M18,18.25C18,18.63 17.79,18.96 17.47,19.13L12.57,21.82C12.4,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L6.53,19.13C6.21,18.96 6,18.63 6,18.25V13C6,12.62 6.21,12.29 6.53,12.12L11.43,9.68C11.59,9.56 11.79,9.5 12,9.5C12.21,9.5 12.4,9.56 12.57,9.68L17.47,12.12C17.79,12.29 18,12.62 18,13V18.25M12,11.65L9.04,13L12,14.6L14.96,13L12,11.65M8,17.66L11,19.29V16.33L8,14.71V17.66M16,17.66V14.71L13,16.33V19.29L16,17.66Z" />
+                        </svg>
+                     </span>
+                    3D Printing, Laser Cutting, & CNC Milling
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                          <path d="M12,1L9,9L1,9.5L7,15L4.5,23L12,18L19.5,23L17,15L23,9.5L15,9L12,1Z" />
+                        </svg>
+                     </span>
+                    Project Management, Team Leadership
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                          <path d="M9,3V9H11V3H9M13,3V9H15V3H13M9,11V17H11V11H9M13,11V17H15V11H13M3,3V21H21V3H3M19,19H5V5H19V19Z" />
+                        </svg>
+                     </span>
+                    PCB Design (KiCad)
+                </div>
+                 <div class="skill-item">
+                    <span class="skill-icon">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                           <path d="M2 2V22H22V2H2M10 10H15V15H10V10Z"/>
+                        </svg>
+                     </span>
+                    Microsoft Excel, Office 365 Suite
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                          <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M18 20H6V4H13V9H18V20M8 12H16V14H8V12M8 16H16V18H8V16Z"/>
+                        </svg>
+                     </span>
+                    Technical Documentation
+                </div>
+            </div>
+        </section>
+     
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <a href="" target="_blank" class="project-card">
+                    <img src="./assets/camy.png" alt="Placeholder image for autonomous rover project" class="project-image">
+                    <div class="project-info">
+                        <h3>Multiterrain Rover Project</h3>
+                        <p>Engineered a robotic rover camera system in SolidWorks and Onshape providing our team with a real time footage livestream. Integrated LoRa and Wi-Fi modules for remote control and telemetry, with a nightvision dashcam and laser providing first-person footage of rover functionality.</p>
+                    </div>
+                </a>
+                <!-- Project 2 -->
+                <a href="" target="_blank" class="project-card">
+                    <img src="./assets/army.png" alt="Placeholder image for heat exchanger project" class="project-image">
+                    <div class="project-info">
+                        <h3>4DOF Mechanical Arm</h3>
+                        <p>Designed and built a 4DOF robotic arm with custom mechanical components in Onshape and SolidWorks, featuring interchangeable tool heads for task versatility. Implemented control systems using C++, Python, and MATLAB-based inverse kinematics algorithms. Integrated ESP32 microcontroller and custom PCBs designed in KiCAD.</p>
+                    </div>
+                </a>
+                <!-- Project 3 -->
+                <a href="https://github.com/3N1C0/Orbital_Slingshot_Simulation/tree/main" target="_blank" class="project-card">
+                     <img src="./assets/simulation.gif" alt="Placeholder image for 3d printed prosthetic hand" class="project-image">
+                    <div class="project-info">
+                        <h3>Orbital Slingshot Simulation</h3>
+                        <p>Developed a Python-based rocket slingshot simulation to model velocity changes and trajectory shifts caused by planetary gravitational forces. The simulation calculates orbital mechanics and visualizes how gravity assists affect rocket speed and direction during flybys.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3> Research Lab Assistant | Univeristy of Redlands Robotics and Drone Lab</h3>
+                <p class="experience-date">September 2025 - Present</p>
+                <p>• Assists in the development of various projects, including a smart rover integrated with Artificial Intelligence
+                <br>• Designs multiple drone chassis iterations in CAD such as Solidworks and Onshape, improving functionality by 15%<br>
+                • Collaborates with 8 team members in a long-term projects to develop Artificial Intelligence powered drones in partnership with the University of Redlands GIS Department 
+</p>
+            </div>
+            <div class="experience-item">
+                <h3>Project Lead, Secretary | SEDS University of Redlands</h3>
+                <p class="experience-date">August 2024 - Present</p>
+                <p>• Oversees 2 projects, successfully coordinating with both the electrical and software teams to deliver a 4 DOF robotic arm and a 2 DOF rover camera  
+                <br>• Spearheads projects (Solidworks, MATLAB) for rovers, rockets, and robotic arms producing 10+ validated designs <br>
+                • Leads the mechanical subteam to deliver parts designed in CAD such as Onshape and Solidworks, yielding 50% more team output compared to prior years 
+                </p>
+            </div>
+            <div class="experience-item">
+                <h3>Extern | AI and Automation Extern, Outamation</h3>
+                <p class="experience-date">May 2025 - July 2025</p>
+                <p>• Configured AI workflows to automate document classification and data extraction using Python, NLP, and OCR tools
+                <br>• Built RAG-based retrieval systems with LlamaIndex to enhance search accuracy in mortgage documents, leading to 60% more efficiency <br>
+                • Assessed top open-source AI models for document processing, recommending deployment and optimization strategies.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Elias Nicolas. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
